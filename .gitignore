@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+env/
+*.egg-info/
+dist/
+*.egg
+
+# Django
+*.log
+*.sqlite3
+db.sqlite3
+/media/
+/staticfiles/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+web-admin/dist/
+miniprogram/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Media uploads
+backend/media/
+
+# PPT temp files
+~$*.pptx
+
+# WeChat private config
+project.private.config.json
+
+# Deploy archives (build artifacts)
+deploy/*.zip
+deploy/*.tar.gz

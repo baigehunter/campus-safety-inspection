@@ -1,0 +1,742 @@
+<!-- ============ SLIDE 01/17 · Cover · IKB 满屏 + ASCII 呼吸场 ============ -->
+<section class="slide accent" data-layout="S01" data-animate="hero">
+  <div class="canvas-card">
+    <canvas class="ascii-bg" aria-hidden="true"></canvas>
+    <div class="chrome-min">
+      <div class="l">智巡校安 · ZhiXun Campus Safety</div>
+      <div class="r">SS · 2026.05 · 01 / 17</div>
+    </div>
+    <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:2.6vh">
+      <div data-anim="kicker" class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em">CAMPUS SAFETY · INTELLIGENT INSPECTION SYSTEM</div>
+      <h1 data-anim="title" style="align-self:center;font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(11.6vw,19vh);line-height:.94;letter-spacing:-.025em;color:#fff">智巡校安</h1>
+      <div data-anim="bottom" style="display:grid;grid-template-rows:auto auto;gap:1.6vh;border-top:1px solid rgba(255,255,255,.22);padding-top:2vh">
+        <div data-anim="lead" class="lead" style="max-width:52ch;color:rgba(255,255,255,.86);font-weight:300">基于国产大模型的校园安全智能巡检信息系统</div>
+        <div style="display:flex;justify-content:space-between;align-items:end">
+          <div class="t-meta" style="color:rgba(255,255,255,.6)">2026年教师人工智能应用案例征集活动 · 智能信息系统赛道</div>
+          <div class="t-meta" style="color:rgba(255,255,255,.6)">→ 键盘翻页 / 滚轮</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 02/17 · 汇报提纲 · Four Cards ============ -->
+<section class="slide light" data-layout="S19" data-animate="four-cards">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">OVERVIEW</div>
+      <div class="r">02 / 17</div>
+    </div>
+    <div style="flex:1;padding:0;display:flex;flex-direction:column;gap:4vh">
+      <div style="display:flex;flex-direction:column;gap:1.6vh">
+        <div class="t-cat accent">CONTENTS</div>
+        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.8vw,10.2vh);line-height:.96;letter-spacing:-.025em">汇报提纲</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1.6vw;flex:1;align-content:center">
+        <div class="card-fill" style="padding:3vh 1.6vw;display:flex;flex-direction:column;gap:1.6vh">
+          <div style="font-family:var(--sans);font-weight:200;font-size:min(5.6vw,10vh);line-height:.9;color:var(--accent)">01</div>
+          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(18px,1.6vw);line-height:1.2">开发背景</h3>
+          <p style="font-family:var(--sans),var(--sans-zh);font-size:max(12px,.9vw);line-height:1.5;color:var(--text-secondary)">为什么要做这件事</p>
+        </div>
+        <div class="card-fill" style="padding:3vh 1.6vw;display:flex;flex-direction:column;gap:1.6vh">
+          <div style="font-family:var(--sans);font-weight:200;font-size:min(5.6vw,10vh);line-height:.9;color:var(--accent)">02</div>
+          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(18px,1.6vw);line-height:1.2">设计与开发</h3>
+          <p style="font-family:var(--sans),var(--sans-zh);font-size:max(12px,.9vw);line-height:1.5;color:var(--text-secondary)">技术方案与AI辅助过程</p>
+        </div>
+        <div class="card-fill" style="padding:3vh 1.6vw;display:flex;flex-direction:column;gap:1.6vh">
+          <div style="font-family:var(--sans);font-weight:200;font-size:min(5.6vw,10vh);line-height:.9;color:var(--accent)">03</div>
+          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(18px,1.6vw);line-height:1.2">应用与效果</h3>
+          <p style="font-family:var(--sans),var(--sans-zh);font-size:max(12px,.9vw);line-height:1.5;color:var(--text-secondary)">试点数据与典型案例</p>
+        </div>
+        <div class="card-fill" style="padding:3vh 1.6vw;display:flex;flex-direction:column;gap:1.6vh">
+          <div style="font-family:var(--sans);font-weight:200;font-size:min(5.6vw,10vh);line-height:.9;color:var(--accent)">04</div>
+          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(18px,1.6vw);line-height:1.2">创新与展望</h3>
+          <p style="font-family:var(--sans),var(--sans-zh);font-size:max(12px,.9vw);line-height:1.5;color:var(--text-secondary)">亮点总结与未来方向</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 03/17 · 开发背景：现实困境 · Three Forces Cards ============ -->
+<section class="slide light" data-layout="S13" data-animate="three-forces">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">BACKGROUND · PAIN POINTS</div>
+      <div class="r">03 / 17</div>
+    </div>
+    <div style="flex:1;padding:0;display:grid;grid-template-columns:5fr 11fr;gap:3vw;align-items:center">
+      <div style="display:flex;flex-direction:column;gap:2vh">
+        <div class="t-cat accent">WHY</div>
+        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,8.2vh);line-height:1;letter-spacing:-.025em">现实困境</h2>
+        <p style="font-family:var(--sans),var(--sans-zh);font-size:max(12px,.9vw);line-height:1.6;color:var(--text-secondary);font-weight:300">校园安全巡检长期采用纸质记录模式，三个突出问题亟需解决</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:1.8vh">
+        <div class="card-fill" style="padding:2.4vh 1.8vw;display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start">
+          <div style="font-family:var(--sans);font-weight:200;font-size:min(5.6vw,9vh);line-height:.9;color:var(--accent)">01</div>
+          <div>
+            <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(16px,1.5vw);line-height:1.3;margin-bottom:.8vh">记录易丢失、难追溯</h3>
+            <p style="font-family:var(--sans),var(--sans-zh);font-size:max(12px,.88vw);line-height:1.6;color:var(--text-secondary);font-weight:300">纸质表格打钩签字，归档后难以回溯。消防栓漏水时翻了很久找不到上次巡检记录和责任人</p>
+          </div>
+        </div>
+        <div class="card-fill" style="padding:2.4vh 1.8vw;display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start">
+          <div style="font-family:var(--sans);font-weight:200;font-size:min(5.6vw,9vh);line-height:.9;color:var(--accent)">02</div>
+          <div>
+            <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(16px,1.5vw);line-height:1.3;margin-bottom:.8vh">隐患识别依赖个人经验</h3>
+            <p style="font-family:var(--sans),var(--sans-zh);font-size:max(12px,.88vw);line-height:1.6;color:var(--text-secondary);font-weight:300">巡检员缺乏系统安全知识，同一配电箱不同人员判断差异大，漏报误报频发</p>
+          </div>
+        </div>
+        <div class="card-fill" style="padding:2.4vh 1.8vw;display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start">
+          <div style="font-family:var(--sans);font-weight:200;font-size:min(5.6vw,9vh);line-height:.9;color:var(--accent)">03</div>
+          <div>
+            <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(16px,1.5vw);line-height:1.3;margin-bottom:.8vh">整改跟踪缺乏闭环</h3>
+            <p style="font-family:var(--sans),var(--sans-zh);font-size:max(12px,.88vw);line-height:1.6;color:var(--text-secondary);font-weight:300">隐患上报后全程依赖微信群沟通，信息碎片化。上学期三起隐患超两周无人跟进</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 04/17 · AI可行性 · Why Now ============ -->
+<section class="slide light" data-layout="S18" data-animate="why-now">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">BACKGROUND · AI FEASIBILITY</div>
+      <div class="r">04 / 17</div>
+    </div>
+    <div style="flex:1;padding:0;display:flex;flex-direction:column;gap:3vh">
+      <div style="display:flex;flex-direction:column;gap:1.4vh">
+        <div class="t-cat accent">FEASIBILITY</div>
+        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.8vw,10.2vh);line-height:.96;letter-spacing:-.025em">借助AI解决问题的可行性</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.6vw;flex:1;align-content:center">
+        <div class="card-fill" style="padding:3vh 1.8vw;display:flex;flex-direction:column;gap:1.8vh">
+          <div style="font-family:var(--sans);font-weight:200;font-size:min(7vw,12vh);line-height:.9;color:var(--accent)">01</div>
+          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(18px,1.6vw);line-height:1.2">国产大模型成熟</h3>
+          <p style="font-family:var(--sans),var(--sans-zh);font-size:max(12px,.9vw);line-height:1.6;color:var(--text-secondary);font-weight:300">豆包（火山方舟）已具备图像理解能力，可辅助判断安全隐患，API成本极低，合规性强</p>
+        </div>
+        <div class="card-fill" style="padding:3vh 1.8vw;display:flex;flex-direction:column;gap:1.8vh">
+          <div style="font-family:var(--sans);font-weight:200;font-size:min(7vw,12vh);line-height:.9;color:var(--accent)">02</div>
+          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(18px,1.6vw);line-height:1.2">技术基础设施完善</h3>
+          <p style="font-family:var(--sans),var(--sans-zh);font-size:max(12px,.9vw);line-height:1.6;color:var(--text-secondary);font-weight:300">微信小程序用户零安装，Django后端开发效率高，技术生态成熟且资料丰富</p>
+        </div>
+        <div class="card-fill" style="padding:3vh 1.8vw;display:flex;flex-direction:column;gap:1.8vh">
+          <div style="font-family:var(--sans);font-weight:200;font-size:min(7vw,12vh);line-height:.9;color:var(--accent)">03</div>
+          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(18px,1.6vw);line-height:1.2">AI辅助开发可行</h3>
+          <p style="font-family:var(--sans),var(--sans-zh);font-size:max(12px,.9vw);line-height:1.6;color:var(--text-secondary);font-weight:300">Claude等生成式AI有效辅助编程，非计算机专业教师也有机会独立完成系统开发</p>
+        </div>
+      </div>
+      <div class="card-accent" style="padding:2vh 2vw;text-align:center">
+        <p style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,1.2vw);line-height:1.5;font-weight:300">非计算机专业教师借助AI，也有能力独立完成一套三端系统的设计与开发 —— "AI赋能终身学习"的实践验证</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 05/17 · 技术选型 · Matrix 4×2 ============ -->
+<section class="slide grey" data-layout="S15" data-animate="grid-reveal">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">DESIGN · TECH STACK</div>
+      <div class="r">05 / 17</div>
+    </div>
+    <div style="flex:1;padding:0;display:flex;flex-direction:column;gap:3vh">
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.2vw,9.2vh);line-height:.96;letter-spacing:-.025em">技术选型</h2>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,1fr);gap:1.2vh 1.2vw;flex:1;align-content:stretch">
+        <div class="card-fill" style="padding:2vh 1.2vw;display:flex;flex-direction:column;justify-content:center;gap:.8vh">
+          <div class="t-cat accent">AI 引擎</div>
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(14px,1.2vw);line-height:1.3">豆包 doubao-seed-2-0-lite</div>
+          <div class="t-helper">火山方舟 · 国产合规 · 图像理解强</div>
+        </div>
+        <div class="card-fill" style="padding:2vh 1.2vw;display:flex;flex-direction:column;justify-content:center;gap:.8vh">
+          <div class="t-cat accent">AI 辅助开发</div>
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(14px,1.2vw);line-height:1.3">Claude (Anthropic)</div>
+          <div class="t-helper">代码生成 · 调试 · 前端设计</div>
+        </div>
+        <div class="card-fill" style="padding:2vh 1.2vw;display:flex;flex-direction:column;justify-content:center;gap:.8vh">
+          <div class="t-cat accent">后端框架</div>
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(14px,1.2vw);line-height:1.3">Python 3.13 + Django 6.0</div>
+          <div class="t-helper">DRF · JWT双Token · ORM成熟</div>
+        </div>
+        <div class="card-fill" style="padding:2vh 1.2vw;display:flex;flex-direction:column;justify-content:center;gap:.8vh">
+          <div class="t-cat accent">数据库</div>
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(14px,1.2vw);line-height:1.3">MySQL 8.0</div>
+          <div class="t-helper">适合结构化巡检台账数据</div>
+        </div>
+        <div class="card-fill" style="padding:2vh 1.2vw;display:flex;flex-direction:column;justify-content:center;gap:.8vh">
+          <div class="t-cat accent">移动端</div>
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(14px,1.2vw);line-height:1.3">uni-app (Vue 3 + TS)</div>
+          <div class="t-helper">一套代码编译微信小程序</div>
+        </div>
+        <div class="card-fill" style="padding:2vh 1.2vw;display:flex;flex-direction:column;justify-content:center;gap:.8vh">
+          <div class="t-cat accent">管理后台</div>
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(14px,1.2vw);line-height:1.3">Vue 3 + Element Plus</div>
+          <div class="t-helper">ECharts · 组件丰富 · 可视化强</div>
+        </div>
+        <div class="card-fill" style="padding:2vh 1.2vw;display:flex;flex-direction:column;justify-content:center;gap:.8vh">
+          <div class="t-cat accent">消息推送</div>
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(14px,1.2vw);line-height:1.3">微信订阅消息</div>
+          <div class="t-helper">合规触达 · 无额外短信成本</div>
+        </div>
+        <div class="card-fill" style="padding:2vh 1.2vw;display:flex;flex-direction:column;justify-content:center;gap:.8vh">
+          <div class="t-cat accent">部署环境</div>
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(14px,1.2vw);line-height:1.3">Nginx + NSSM</div>
+          <div class="t-helper">适配学校Windows Server</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 06/17 · AI提示词设计 · Duo Compare ============ -->
+<section class="slide light" data-layout="S08" data-animate="duo-mirror">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">DEVELOPMENT · AI PROMPT ENGINEERING</div>
+      <div class="r">06 / 17</div>
+    </div>
+    <div style="flex:1;padding:0;display:flex;flex-direction:column;gap:3vh">
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.2vw,9.2vh);line-height:.96;letter-spacing:-.025em">AI隐患分析的提示词设计</h2>
+      <div class="duo-compare" style="margin-top:2vh">
+        <div class="col">
+          <div class="col-tag"><span class="num">🤖</span> AI辅助迭代过程</div>
+          <div style="display:flex;flex-direction:column;gap:1.4vh;margin-top:2vh">
+            <div style="padding:1.4vh 1.2vw;border-left:2px solid var(--accent)">
+              <div class="t-cat" style="font-size:10px">迭代 1</div>
+              <p style="font-size:max(12px,.88vw);line-height:1.5;color:var(--text-secondary);font-weight:300">初始方案过于简单 → AI返回不稳定，有时拒答</p>
+            </div>
+            <div style="padding:1.4vh 1.2vw;border-left:2px solid var(--grey-2)">
+              <div class="t-cat" style="font-size:10px">迭代 2</div>
+              <p style="font-size:max(12px,.88vw);line-height:1.5;color:var(--text-secondary);font-weight:300">添加角色设定："你是校园安全巡检专家"</p>
+            </div>
+            <div style="padding:1.4vh 1.2vw;border-left:2px solid var(--grey-2)">
+              <div class="t-cat" style="font-size:10px">迭代 3</div>
+              <p style="font-size:max(12px,.88vw);line-height:1.5;color:var(--text-secondary);font-weight:300">约束JSON输出：hazard_type / level / tags / analysis</p>
+            </div>
+            <div style="padding:1.4vh 1.2vw;border-left:2px solid var(--grey-2)">
+              <div class="t-cat" style="font-size:10px">迭代 4</div>
+              <p style="font-size:max(12px,.88vw);line-height:1.5;color:var(--text-secondary);font-weight:300">temperature = 0.3，降低输出随机性</p>
+            </div>
+            <div style="padding:1.4vh 1.2vw;border-left:2px solid var(--accent)">
+              <div class="t-cat" style="font-size:10px">结果</div>
+              <p style="font-size:max(12px,.88vw);line-height:1.5;color:var(--text-primary);font-weight:500">约7轮迭代，测试50样本，准确率稳定在92%</p>
+            </div>
+          </div>
+        </div>
+        <div class="vrule"></div>
+        <div class="col">
+          <div class="col-tag"><span class="num">📷</span> 照片传输技术方案</div>
+          <div style="display:flex;flex-direction:column;gap:2vh;margin-top:2vh">
+            <div>
+              <div class="t-cat" style="color:#EF4444;font-size:10px">问题</div>
+              <p style="font-size:max(12px,.92vw);line-height:1.5;color:var(--text-secondary);font-weight:300;margin-top:.6vh">微信小程序图片为本地路径(wxfile://)，服务器无法直接访问</p>
+            </div>
+            <div>
+              <div class="t-cat" style="color:#10B981;font-size:10px">方案</div>
+              <p style="font-size:max(12px,.92vw);line-height:1.5;color:var(--text-secondary);font-weight:300;margin-top:.6vh">AI分析环节：照片→base64编码→发给豆包（需直接接收图像数据）</p>
+              <p style="font-size:max(12px,.92vw);line-height:1.5;color:var(--text-secondary);font-weight:300;margin-top:1vh">提交上报环节：先上传图片→获取URL→再提交表单数据</p>
+            </div>
+            <div class="card-fill" style="padding:1.4vh 1.2vw">
+              <p style="font-size:max(11px,.82vw);line-height:1.5;color:var(--text-helper);font-weight:300">区分策略避免base64过大导致并发超时</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 07/17 · 前端打磨 · Duo Compare ============ -->
+<section class="slide grey" data-layout="S08" data-animate="duo-mirror">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">DEVELOPMENT · FRONTEND POLISH</div>
+      <div class="r">07 / 17</div>
+    </div>
+    <div style="flex:1;padding:0;display:flex;flex-direction:column;gap:3vh">
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.2vw,9.2vh);line-height:.96;letter-spacing:-.025em">前端界面与动画系统的打磨</h2>
+      <div class="duo-compare" style="margin-top:2vh">
+        <div class="col">
+          <div class="col-tag"><span class="num">🤖</span> AI初始生成</div>
+          <ul class="col-list" style="border-top:none;padding-top:2vh">
+            <li>35个CSS自定义属性，构建设计系统</li>
+            <li>8组关键帧动画 (fadeSlideUp / shimmer / glowPulse…)</li>
+            <li>8级逐项延迟入场机制 (delay-1 ~ delay-8)</li>
+            <li>完整的深色主题配色方案</li>
+          </ul>
+        </div>
+        <div class="vrule"></div>
+        <div class="col">
+          <div class="col-tag"><span class="num">👤</span> 人工真机调优</div>
+          <ul class="col-list" style="border-top:none;padding-top:2vh">
+            <li>删除冗余动画 → 真机卡顿问题解决</li>
+            <li>动画时长 0.45s → 0.38s，减少等待感</li>
+            <li>移除backdrop-filter（微信小程序不支持）</li>
+            <li>字号 28rpx → 32rpx（户外光线下太小）</li>
+            <li>灰色 #94a3b8 → #64748b（阳光下不可见）</li>
+            <li>添加 prefers-reduced-motion 无障碍适配</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 08/17 · 三端架构 · System Diagram ============ -->
+<section class="slide dark" data-layout="S17" data-animate="stack-build">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">ARCHITECTURE · THREE PLATFORMS</div>
+      <div class="r">08 / 17</div>
+    </div>
+    <div style="flex:1;padding:0;display:flex;flex-direction:column;gap:3vh">
+      <div style="display:flex;flex-direction:column;gap:1.4vh">
+        <div class="t-cat" style="color:rgba(255,255,255,.6)">SYSTEM ARCHITECTURE</div>
+        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.8vw,10.2vh);line-height:.96;letter-spacing:-.025em;color:var(--paper)">三端系统总览</h2>
+        <p style="font-size:max(14px,1vw);color:rgba(255,255,255,.7);font-weight:300">核心业务流程：发现上报 → 智能判定 → 派单整改 → 验收闭环</p>
+      </div>
+      <div class="stack-row" style="margin-top:2vh">
+        <div class="stack-block b-accent">
+          <div class="layer-nb">PLATFORM 01</div>
+          <div class="layer-ttl">📱 移动端小程序</div>
+          <div class="layer-desc">面向巡检员与整改人<br>7个功能页面，微信小程序零安装<br>三步操作：选点位→拍照→提交</div>
+          <div class="layer-tag">uni-app · Vue 3 · TypeScript</div>
+        </div>
+        <div class="stack-block b-grey">
+          <div class="layer-nb">PLATFORM 02</div>
+          <div class="layer-ttl">🖥️ Web管理后台</div>
+          <div class="layer-desc">面向安全管理员<br>8个管理模块，ECharts数据看板<br>隐患审核派单 + 整改验收 + 操作日志</div>
+          <div class="layer-tag">Vue 3 · Element Plus · ECharts</div>
+        </div>
+        <div class="stack-block b-ink">
+          <div class="layer-nb">PLATFORM 03</div>
+          <div class="layer-ttl">⚙️ 后端API服务</div>
+          <div class="layer-desc">30+ RESTful接口<br>JWT双Token认证 + 角色权限控制<br>AI分析引擎 + 微信推送 + 文件上传</div>
+          <div class="layer-tag">Python · Django · DRF · MySQL</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 09/17 · 小程序功能 · Multi-card Brief (6 cards) ============ -->
+<section class="slide light" data-layout="S16" data-animate="grid-reveal">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">FEATURES · MINI PROGRAM</div>
+      <div class="r">09 / 17</div>
+    </div>
+    <div style="flex:1;padding:0;display:flex;flex-direction:column;gap:3vh">
+      <div style="display:flex;flex-direction:column;gap:1.4vh">
+        <div class="t-cat accent">MINI PROGRAM FEATURES</div>
+        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.2vw,9.2vh);line-height:.96;letter-spacing:-.025em">移动端小程序功能</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);gap:1.4vh 1.4vw;flex:1;align-content:stretch">
+        <div class="card-fill" style="padding:2.2vh 1.4vw;display:flex;flex-direction:column;gap:.8vh">
+          <div class="t-cat accent">01 · AUTH</div>
+          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(15px,1.3vw);line-height:1.2">账号认证</h3>
+          <p class="t-helper" style="margin-top:auto">JWT双Token · 自动续期 · IP限速防暴破</p>
+        </div>
+        <div class="card-fill" style="padding:2.2vh 1.4vw;display:flex;flex-direction:column;gap:.8vh">
+          <div class="t-cat accent">02 · INSPECT</div>
+          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(15px,1.3vw);line-height:1.2">巡检点位</h3>
+          <p class="t-helper" style="margin-top:auto">列表搜索 · 到点拍照 · AI辅助判定</p>
+        </div>
+        <div class="card-fill" style="padding:2.2vh 1.4vw;display:flex;flex-direction:column;gap:.8vh">
+          <div class="t-cat accent">03 · HAZARD</div>
+          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(15px,1.3vw);line-height:1.2">隐患上报</h3>
+          <p class="t-helper" style="margin-top:auto">结构化表单 · AI自动分类定级 · 可修正</p>
+        </div>
+        <div class="card-fill" style="padding:2.2vh 1.4vw;display:flex;flex-direction:column;gap:.8vh">
+          <div class="t-cat accent">04 · TASK</div>
+          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(15px,1.3vw);line-height:1.2">整改任务</h3>
+          <p class="t-helper" style="margin-top:auto">待处理/待验收/已完成 · 拍照提交</p>
+        </div>
+        <div class="card-fill" style="padding:2.2vh 1.4vw;display:flex;flex-direction:column;gap:.8vh">
+          <div class="t-cat accent">05 · HISTORY</div>
+          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(15px,1.3vw);line-height:1.2">历史记录</h3>
+          <p class="t-helper" style="margin-top:auto">巡检+隐患双Tab · AI结论留存 · 照片预览</p>
+        </div>
+        <div class="card-fill" style="padding:2.2vh 1.4vw;display:flex;flex-direction:column;gap:.8vh">
+          <div class="t-cat accent">06 · INBOX</div>
+          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(15px,1.3vw);line-height:1.2">消息中心 + 个人中心</h3>
+          <p class="t-helper" style="margin-top:auto">分类筛选 · 未读提醒 · 统计 · 订阅管理</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 10/17 · 管理后台+API · Duo Compare ============ -->
+<section class="slide grey" data-layout="S08" data-animate="duo-mirror">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">FEATURES · WEB ADMIN & API</div>
+      <div class="r">10 / 17</div>
+    </div>
+    <div style="flex:1;padding:0;display:flex;flex-direction:column;gap:3vh">
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.2vw,9.2vh);line-height:.96;letter-spacing:-.025em">Web管理后台与后端API</h2>
+      <div class="duo-compare" style="margin-top:2vh">
+        <div class="col">
+          <div class="col-tag"><span class="num">🖥️</span> Web管理后台</div>
+          <ul class="col-list" style="border-top:none;padding-top:2vh">
+            <li>数据看板：巡检/隐患ECharts统计图表，支持下钻</li>
+            <li>用户管理：四种角色（超管/安全管理员/巡检员/整改人）</li>
+            <li>区域点位：校园层级结构，日/周/月巡检频率</li>
+            <li>隐患管理：列表查看 → 人工派单 → 状态跟踪</li>
+            <li>整改审核：结果审核 → 验收通过 / 驳回重提</li>
+            <li>操作日志：全操作留痕，审计追溯</li>
+          </ul>
+        </div>
+        <div class="vrule"></div>
+        <div class="col">
+          <div class="col-tag"><span class="num">⚙️</span> 后端API服务</div>
+          <ul class="col-list" style="border-top:none;padding-top:2vh">
+            <li>认证模块：登录/登出/Token刷新（IP限速）</li>
+            <li>巡检模块：点位CRUD / 记录提交 / AI判定</li>
+            <li>隐患模块：上报 / AI分析 / 状态流转</li>
+            <li>整改模块：任务分配 / 提交审核 / 验收闭环</li>
+            <li>通知模块：微信消息推送 / 已读标记</li>
+            <li>统计模块：仪表盘数据 / 图表 / 报表导出</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 11/17 · AI辅助开发证据 · Matrix ============ -->
+<section class="slide light" data-layout="S15" data-animate="grid-reveal">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">DEVELOPMENT · AI-ASSISTED EVIDENCE</div>
+      <div class="r">11 / 17</div>
+    </div>
+    <div style="flex:1;padding:0;display:flex;flex-direction:column;gap:3vh">
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.2vw,9.2vh);line-height:.96;letter-spacing:-.025em">AI辅助开发证据</h2>
+      <p class="t-body" style="max-width:60ch;font-weight:300">Claude参与了以下模块的初始代码生成，所有AI生成代码均经人工审查、调试和多轮修改</p>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,1fr);gap:1.2vh 1.2vw;flex:1;align-content:stretch">
+        <div class="card-fill" style="padding:2vh 1.2vw;display:flex;flex-direction:column;gap:.6vh">
+          <div class="t-cat accent">01 · CSS</div>
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(13px,1vw);line-height:1.3">全局CSS设计系统</div>
+          <div class="t-helper" style="font-size:10px">35个变量 + 8组动画 + 工具类</div>
+        </div>
+        <div class="card-fill" style="padding:2vh 1.2vw;display:flex;flex-direction:column;gap:.6vh">
+          <div class="t-cat accent">02 · PROMPT</div>
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(13px,1vw);line-height:1.3">AI提示词框架</div>
+          <div class="t-helper" style="font-size:10px">markdown清理 · JSON解析容错</div>
+        </div>
+        <div class="card-fill" style="padding:2vh 1.2vw;display:flex;flex-direction:column;gap:.6vh">
+          <div class="t-cat accent">03 · NOTIFY</div>
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(13px,1vw);line-height:1.3">微信订阅消息推送</div>
+          <div class="t-helper" style="font-size:10px">模板ID映射 · 字段拼接截断</div>
+        </div>
+        <div class="card-fill" style="padding:2vh 1.2vw;display:flex;flex-direction:column;gap:.6vh">
+          <div class="t-cat accent">04 · TOKEN</div>
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(13px,1vw);line-height:1.3">Token刷新并发控制</div>
+          <div class="t-helper" style="font-size:10px">首个刷新 + 其余排队 · 竞态处理</div>
+        </div>
+        <div class="card-fill" style="padding:2vh 1.2vw;display:flex;flex-direction:column;gap:.6vh">
+          <div class="t-cat accent">05 · PAGES</div>
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(13px,1vw);line-height:1.3">前端页面布局框架</div>
+          <div class="t-helper" style="font-size:10px">7个页面的骨架结构与样式</div>
+        </div>
+        <div class="card-fill" style="padding:2vh 1.2vw;display:flex;flex-direction:column;gap:.6vh">
+          <div class="t-cat accent">06 · ORM</div>
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(13px,1vw);line-height:1.3">数据库ORM模型</div>
+          <div class="t-helper" style="font-size:10px">初始字段定义 · 人工补充verbose_name</div>
+        </div>
+        <div class="card-fill" style="padding:2vh 1.2vw;display:flex;flex-direction:column;gap:.6vh">
+          <div class="t-cat accent">07 · CHARTS</div>
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(13px,1vw);line-height:1.3">ECharts图表配置</div>
+          <div class="t-helper" style="font-size:10px">Dashboard图表option配置</div>
+        </div>
+        <div class="card-fill" style="padding:2vh 1.2vw;display:flex;flex-direction:column;gap:.6vh">
+          <div class="t-cat accent">08 · DRF</div>
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(13px,1vw);line-height:1.3">DRF序列化器与视图集</div>
+          <div class="t-helper" style="font-size:10px">标准CRUD接口的基础代码</div>
+        </div>
+      </div>
+      <div class="card-accent" style="padding:1.4vh 1.6vw;display:flex;align-items:center;gap:1vw">
+        <div class="t-cat" style="color:var(--accent-on);font-size:10px">HUMAN-WRITTEN</div>
+        <p style="font-family:var(--sans),var(--sans-zh);font-size:max(11px,.82vw);line-height:1.5;font-weight:300">权限控制逻辑、数据校验规则、登录限速策略、部署运维配置 — 由人工独立编写</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 12/17 · 试点部署 · KPI Tower ============ -->
+<section class="slide dark" data-layout="S06" data-animate="measure-up">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">APPLICATION · PILOT DEPLOYMENT</div>
+      <div class="r">12 / 17</div>
+    </div>
+    <div style="flex:1;padding:0;display:flex;flex-direction:column;gap:3vh">
+      <div style="display:flex;flex-direction:column;gap:1vh">
+        <div class="t-cat" style="color:rgba(255,255,255,.6)">PILOT</div>
+        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.2vw,9.2vh);line-height:.96;letter-spacing:-.025em;color:var(--paper)">试点部署情况</h2>
+      </div>
+      <div class="bar-towers" style="margin-top:2vh">
+        <div class="bar-tower">
+          <div class="cap"><i data-lucide="building2" style="width:1.6vw;height:1.6vw;color:var(--ink)"></i></div>
+          <div class="body-block b-accent h-2">
+            <div class="lbl">校区覆盖</div>
+            <div class="nb">3<span class="unit">个校区</span></div>
+            <div class="sub">覆盖全部校区</div>
+          </div>
+        </div>
+        <div class="bar-tower">
+          <div class="cap"><i data-lucide="map-pin" style="width:1.6vw;height:1.6vw;color:var(--ink)"></i></div>
+          <div class="body-block h-3">
+            <div class="lbl">巡检点位</div>
+            <div class="nb">47<span class="unit">个</span></div>
+            <div class="sub">消防/电气/建筑/食堂</div>
+          </div>
+        </div>
+        <div class="bar-tower">
+          <div class="cap"><i data-lucide="users" style="width:1.6vw;height:1.6vw;color:var(--ink)"></i></div>
+          <div class="body-block h-2">
+            <div class="lbl">巡检员</div>
+            <div class="nb">6<span class="unit">名</span></div>
+            <div class="sub">5人年龄>45岁 · 全部可独立操作</div>
+          </div>
+        </div>
+        <div class="bar-tower">
+          <div class="cap"><i data-lucide="calendar" style="width:1.6vw;height:1.6vw;color:var(--ink)"></i></div>
+          <div class="body-block b-accent h-2">
+            <div class="lbl">运行时长</div>
+            <div class="nb">2<span class="unit">个月</span></div>
+            <div class="sub">2025年3月-4月</div>
+          </div>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:2vw;margin-top:1vh">
+        <div class="card-fill" style="padding:1.8vh 1.4vw">
+          <div class="t-cat accent" style="font-size:10px">培训情况</div>
+          <p style="font-family:var(--sans),var(--sans-zh);font-size:max(12px,.9vw);line-height:1.5;font-weight:300;margin-top:.6vh">约30分钟集中培训，6人全部可独立操作。微信小程序界面认知零门槛，操作路径简化为"选点位→拍照→提交"三步</p>
+        </div>
+        <div class="card-fill" style="padding:1.8vh 1.4vw">
+          <div class="t-cat accent" style="font-size:10px">用户反馈</div>
+          <p style="font-family:var(--sans),var(--sans-zh);font-size:max(12px,.9vw);line-height:1.5;font-weight:300;margin-top:.6vh">巡检员："不用记哪个巡了哪个没巡"<br>管理者："导出Excel对接检查省了大事"</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 13/17 · 应用效果 · Stacked KPI Ledger ============ -->
+<section class="slide light" data-layout="S20" data-animate="stacked-ledger">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">APPLICATION · EFFECTS & DATA</div>
+      <div class="r">13 / 17</div>
+    </div>
+    <div style="flex:1;padding:0;display:flex;flex-direction:column;gap:2.4vh">
+      <div style="display:flex;flex-direction:column;gap:1vh">
+        <div class="t-cat accent">BEFORE / AFTER</div>
+        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.2vw,9.2vh);line-height:.96;letter-spacing:-.025em">应用效果数据对比</h2>
+        <p class="t-helper">2025年3-4月（数字化） vs 2024年10-11月（纸质）同期对比</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:0;flex:1">
+        <div style="display:grid;grid-template-columns:16em 1fr 1fr 10em;gap:1.4vw;align-items:center;padding:1.8vh 0;border-bottom:1px solid var(--border-subtle)">
+          <div class="t-cat accent">巡检覆盖率</div>
+          <div style="font-size:max(13px,.95vw);color:var(--text-secondary);font-weight:300">纸质：记录丢失率 ~22%</div>
+          <div style="font-size:max(13px,.95vw);font-weight:500">数字化：系统强制留痕，基本全覆盖</div>
+          <div style="font-family:var(--sans);font-weight:200;font-size:max(20px,2vw);line-height:1;color:#10B981;text-align:right">↑ 大幅提升</div>
+        </div>
+        <div style="display:grid;grid-template-columns:16em 1fr 1fr 10em;gap:1.4vw;align-items:center;padding:1.8vh 0;border-bottom:1px solid var(--border-subtle)">
+          <div class="t-cat accent">隐患发现量</div>
+          <div style="font-size:max(13px,.95vw);color:var(--text-secondary);font-weight:300">纸质：月均十余条</div>
+          <div style="font-size:max(13px,.95vw);font-weight:500">数字化：月均三十余条</div>
+          <div style="font-family:var(--sans);font-weight:200;font-size:max(20px,2vw);line-height:1;color:#10B981;text-align:right">↑ 2-3×</div>
+        </div>
+        <div style="display:grid;grid-template-columns:16em 1fr 1fr 10em;gap:1.4vw;align-items:center;padding:1.8vh 0;border-bottom:1px solid var(--border-subtle)">
+          <div class="t-cat accent">判定准确率</div>
+          <div style="font-size:max(13px,.95vw);color:var(--text-secondary);font-weight:300">人工：误判率约35%</div>
+          <div style="font-size:max(13px,.95vw);font-weight:500">AI辅助后：下降至约8%</div>
+          <div style="font-family:var(--sans);font-weight:200;font-size:max(20px,2vw);line-height:1;color:#10B981;text-align:right">↑ 显著改善</div>
+        </div>
+        <div style="display:grid;grid-template-columns:16em 1fr 1fr 10em;gap:1.4vw;align-items:center;padding:1.8vh 0;border-bottom:1px solid var(--border-subtle)">
+          <div class="t-cat accent">整改进度</div>
+          <div style="font-size:max(13px,.95vw);color:var(--text-secondary);font-weight:300">纸质：平均5.8天</div>
+          <div style="font-size:max(13px,.95vw);font-weight:500">数字化：平均1.6天</div>
+          <div style="font-family:var(--sans);font-weight:200;font-size:max(20px,2vw);line-height:1;color:var(--accent);text-align:right">↓ 72%</div>
+        </div>
+        <div style="display:grid;grid-template-columns:16em 1fr 1fr 10em;gap:1.4vw;align-items:center;padding:1.8vh 0;border-bottom:1px solid var(--border-subtle)">
+          <div class="t-cat accent">管理效率</div>
+          <div style="font-size:max(13px,.95vw);color:var(--text-secondary);font-weight:300">每周汇总：手工翻表3-4小时</div>
+          <div style="font-size:max(13px,.95vw);font-weight:500">数字化：一键导出Excel &lt; 1分钟</div>
+          <div style="font-family:var(--sans);font-weight:200;font-size:max(20px,2vw);line-height:1;color:var(--accent);text-align:right">↑ 180×</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 14/17 · 典型案例 · Duo Compare ============ -->
+<section class="slide light" data-layout="S08" data-animate="duo-mirror">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">APPLICATION · CASE STUDIES</div>
+      <div class="r">14 / 17</div>
+    </div>
+    <div style="flex:1;padding:0;display:flex;flex-direction:column;gap:3vh">
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.2vw,9.2vh);line-height:.96;letter-spacing:-.025em">典型案例</h2>
+      <div class="duo-compare" style="margin-top:2vh">
+        <div class="col">
+          <div class="col-tag" style="color:#EF4444"><span class="num" style="color:#EF4444;border-color:#EF4444">案例一</span> 墙体裂缝</div>
+          <div style="display:flex;flex-direction:column;gap:1.2vh;margin-top:1.6vh">
+            <p style="font-size:max(13px,1vw);line-height:1.5;font-weight:500">AI发现结构隐患</p>
+            <div style="display:flex;flex-direction:column;gap:.8vh">
+              <p style="font-size:max(12px,.88vw);color:var(--text-secondary);font-weight:300">巡检员拍摄墙面裂缝→AI判定为「重大隐患(建筑安全)」→ 起初大家觉得小题大做 → 请建筑专业人士复查 → 确认为结构性裂缝 → <strong>及时加固，避免了安全事故</strong></p>
+            </div>
+            <div class="card-accent" style="padding:1.2vh 1vw;margin-top:.6vh">
+              <p style="font-size:max(11px,.82vw);line-height:1.5;font-weight:300">AI的价值：捕捉到了人眼容易忽略的结构风险</p>
+            </div>
+          </div>
+        </div>
+        <div class="vrule"></div>
+        <div class="col">
+          <div class="col-tag" style="color:#F59E0B"><span class="num" style="color:#F59E0B;border-color:#F59E0B">案例二</span> 消防通道</div>
+          <div style="display:flex;flex-direction:column;gap:1.2vh;margin-top:1.6vh">
+            <p style="font-size:max(13px,1vw);line-height:1.5;font-weight:500">AI发现被忽视的隐患</p>
+            <div style="display:flex;flex-direction:column;gap:.8vh">
+              <p style="font-size:max(12px,.88vw);color:var(--text-secondary);font-weight:300">巡检员拍摄走廊堆放的纸箱 → AI判定为「消防隐患」→ 巡检员起初不以为然 → 系统反复提醒后清理 → 事后消防演练证实该通道关键 → <strong>帮助注意到被主观忽略的细节</strong></p>
+            </div>
+            <div class="card-accent" style="padding:1.2vh 1vw;margin-top:.6vh">
+              <p style="font-size:max(11px,.82vw);line-height:1.5;font-weight:300">AI提供不疲劳、不偷懒、有标准的"第二双眼睛"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 15/17 · 创新点 · Four Cards ============ -->
+<section class="slide accent" data-layout="S19" data-animate="four-cards">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">INNOVATION · HIGHLIGHTS</div>
+      <div class="r">15 / 17</div>
+    </div>
+    <div style="flex:1;padding:0;display:flex;flex-direction:column;gap:3vh">
+      <div style="display:flex;flex-direction:column;gap:1.4vh">
+        <div class="t-cat" style="color:rgba(255,255,255,.7)">FOUR INNOVATIONS</div>
+        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.8vw,10.2vh);line-height:.96;letter-spacing:-.025em;color:#fff">四大创新点</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1.6vw;flex:1;align-content:center">
+        <div class="card-ink" style="padding:2.4vh 1.4vw;display:flex;flex-direction:column;gap:1.2vh">
+          <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:.9;color:var(--accent-bright)">01</div>
+          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:300;font-size:max(16px,1.3vw);line-height:1.2;color:var(--paper)">国产大模型 × 垂直场景</h3>
+          <p style="font-family:var(--sans),var(--sans-zh);font-size:max(11px,.8vw);line-height:1.5;color:rgba(255,255,255,.65);font-weight:300">6种隐患类型+2个等级标准，结构化提示词体系，AI结果自动回填，人工最终把关</p>
+        </div>
+        <div class="card-ink" style="padding:2.4vh 1.4vw;display:flex;flex-direction:column;gap:1.2vh">
+          <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:.9;color:var(--accent-bright)">02</div>
+          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:300;font-size:max(16px,1.3vw);line-height:1.2;color:var(--paper)">完整业务闭环</h3>
+          <p style="font-family:var(--sans),var(--sans-zh);font-size:max(11px,.8vw);line-height:1.5;color:rgba(255,255,255,.65);font-weight:300">发现→判定→派单→整改→验收，全流程可追溯、可审计，每个环节记录操作人和时间戳</p>
+        </div>
+        <div class="card-ink" style="padding:2.4vh 1.4vw;display:flex;flex-direction:column;gap:1.2vh">
+          <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:.9;color:var(--accent-bright)">03</div>
+          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:300;font-size:max(16px,1.3vw);line-height:1.2;color:var(--paper)">低门槛低成本</h3>
+          <p style="font-family:var(--sans),var(--sans-zh);font-size:max(11px,.8vw);line-height:1.5;color:rgba(255,255,255,.65);font-weight:300">微信小程序零安装，30分钟培训上岗。AI分析单次约0.002元，中小学预算可控</p>
+        </div>
+        <div class="card-ink" style="padding:2.4vh 1.4vw;display:flex;flex-direction:column;gap:1.2vh">
+          <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:.9;color:var(--accent-bright)">04</div>
+          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:300;font-size:max(16px,1.3vw);line-height:1.2;color:var(--paper)">AI辅助开发示范</h3>
+          <p style="font-family:var(--sans),var(--sans-zh);font-size:max(11px,.8vw);line-height:1.5;color:rgba(255,255,255,.65);font-weight:300">非计算机专业教师借助Claude完成全栈三端系统，AI赋能终身学习的实践案例</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 16/17 · 问题与改进 · Duo Compare ============ -->
+<section class="slide light" data-layout="S08" data-animate="duo-mirror">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">REFLECTION · PROBLEMS & ROADMAP</div>
+      <div class="r">16 / 17</div>
+    </div>
+    <div style="flex:1;padding:0;display:flex;flex-direction:column;gap:3vh">
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.2vw,9.2vh);line-height:.96;letter-spacing:-.025em">问题与改进方向</h2>
+      <div class="duo-compare" style="margin-top:2vh">
+        <div class="col">
+          <div class="col-tag" style="color:#F59E0B"><span class="num" style="color:#F59E0B;border-color:#F59E0B">⚠️</span> 遇到的问题</div>
+          <ul class="col-list" style="border-top:none;padding-top:2vh">
+            <li><strong>AI误判</strong> — 光线暗/照片模糊时准确率下降。短期：拍照引导提示；长期：积累数据微调模型</li>
+            <li><strong>微信限制</strong> — 订阅消息thing类最多20字符，文案需反复精简</li>
+            <li><strong>Token并发</strong> — 多个请求同时401时的竞态处理，经多轮调试才稳定</li>
+            <li><strong>照片质量</strong> — 部分巡检员拍摄敷衍，后续需增加清晰度自动检测</li>
+          </ul>
+        </div>
+        <div class="vrule"></div>
+        <div class="col">
+          <div class="col-tag" style="color:var(--accent)"><span class="num" style="color:var(--accent);border-color:var(--accent)">🚀</span> 改进计划</div>
+          <ul class="col-list" style="border-top:none;padding-top:2vh">
+            <li><strong>短期</strong> — AI趋势预警：识别高频问题点位和季节性风险模式</li>
+            <li><strong>短期</strong> — 语音输入：方便巡检员佩戴手套或不方便打字时使用</li>
+            <li><strong>短期</strong> — GitHub开源：推动更多学校低成本使用和改进</li>
+            <li><strong>远期</strong> — 物联网联动：与烟感/温感传感器数据联动，构建"自动监测+人工巡检"双层防护体系</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 17/17 · 致谢 · Split Closing (IKB + ASCII) ============ -->
+<section class="slide split" data-layout="S10" data-animate="split-statement">
+  <div class="canvas-card">
+    <div class="split-half">
+      <div class="half b-accent" style="padding:5.6vh 3.6vw 4.4vh;justify-content:space-between;position:relative;overflow:hidden">
+        <canvas class="ascii-bg" aria-hidden="true"></canvas>
+        <div class="chrome-min" style="margin-bottom:0;position:relative;z-index:1">
+          <div class="l">17 / 17</div>
+          <div class="r">CLOSING</div>
+        </div>
+        <div data-anim="manifesto" style="display:flex;flex-direction:column;gap:2vh;position:relative;z-index:1">
+          <div class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em;margin-bottom:1.6vh">MANIFESTO</div>
+          <h2 style="font-family:var(--sans),var(--sans-zh);font-size:min(8vw,14vh);line-height:.94;letter-spacing:-.025em;font-weight:200;color:#fff">感谢<span style="font-style:italic;font-weight:300">评审</span></h2>
+          <div style="font-family:var(--sans),var(--sans-zh);font-size:max(13px,1vw);line-height:1.6;color:rgba(255,255,255,.82);font-weight:300;max-width:36ch;margin-top:1.4vh">智巡校安 —— 基于国产大模型的校园安全智能巡检信息系统</div>
+        </div>
+        <div data-anim="signature" style="display:flex;justify-content:space-between;align-items:end;border-top:1px solid rgba(255,255,255,.22);padding-top:2vh;position:relative;z-index:1">
+          <div class="t-meta" style="color:rgba(255,255,255,.62)">2026年教师人工智能应用案例征集活动</div>
+          <div class="t-meta" style="color:rgba(255,255,255,.62)">2026.05</div>
+        </div>
+      </div>
+      <div class="half" style="padding:5.6vh 3.6vw 4.4vh;justify-content:space-between">
+        <div class="chrome-min">
+          <div class="l">TAKEAWAYS</div>
+          <div class="r">03 POINTS</div>
+        </div>
+        <div data-anim="rules" style="display:flex;flex-direction:column;gap:0">
+          <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start;padding:2.6vh 0;border-top:1px solid var(--border-subtle)">
+            <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:.9;color:var(--text-primary)">01</div>
+            <div>
+              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(18px,1.8vw);line-height:1.2;letter-spacing:-.015em;color:var(--text-primary);margin-bottom:1vh">AI + 垂直场景 = 真实价值</h3>
+              <p style="font-family:var(--sans),var(--sans-zh);font-size:max(12px,.92vw);line-height:1.6;color:var(--text-secondary);font-weight:300">国产大模型在校园安全巡检这一具体场景中，实现了从数据分析到业务闭环的完整链路</p>
+            </div>
+          </div>
+          <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start;padding:2.6vh 0;border-top:1px solid var(--border-subtle)">
+            <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:.9;color:var(--text-primary)">02</div>
+            <div>
+              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(18px,1.8vw);line-height:1.2;letter-spacing:-.015em;color:var(--text-primary);margin-bottom:1vh">低门槛方案才能落地</h3>
+              <p style="font-family:var(--sans),var(--sans-zh);font-size:max(12px,.92vw);line-height:1.6;color:var(--text-secondary);font-weight:300">微信小程序零安装、30分钟培训、Windows服务器部署——中小学真正用得起的智能化方案</p>
+            </div>
+          </div>
+          <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start;padding:2.6vh 0;border-top:1px solid var(--border-subtle);border-bottom:2px solid var(--accent)">
+            <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:.9;color:var(--accent)">03</div>
+            <div>
+              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(18px,1.8vw);line-height:1.2;letter-spacing:-.015em;color:var(--accent);margin-bottom:1vh">AI赋能教师成长</h3>
+              <p style="font-family:var(--sans),var(--sans-zh);font-size:max(12px,.92vw);line-height:1.6;color:var(--text-secondary);font-weight:300">非计算机专业教师借助AI完成全栈开发——这本身就是"AI赋能终身学习"的最佳实践</p>
+            </div>
+          </div>
+        </div>
+        <div data-anim="foot" class="t-meta" style="color:var(--text-helper);text-align:right">→ 完 · 感谢评审</div>
+      </div>
+    </div>
+  </div>
+</section>

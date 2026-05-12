@@ -1,0 +1,104 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "校园安全巡检",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/inspect/index",
+      "style": {
+        "navigationBarTitleText": "开始巡检",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/hazard/index",
+      "style": {
+        "navigationBarTitleText": "上报隐患",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/task/index",
+      "style": {
+        "navigationBarTitleText": "整改任务",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/history/index",
+      "style": {
+        "navigationBarTitleText": "历史记录",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/notifications/index",
+      "style": {
+        "navigationBarTitleText": "消息中心",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/profile/index",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "校园安全管理平台",
+    "navigationBarBackgroundColor": "#0f172a",
+    "backgroundColor": "#f8fafc"
+  },
+  "tabBar": {
+    "color": "#94a3b8",
+    "selectedColor": "#06b6d4",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tab/home.png",
+        "selectedIconPath": "static/tab/home-active.png"
+      },
+      {
+        "pagePath": "pages/inspect/index",
+        "text": "巡检",
+        "iconPath": "static/tab/inspect.png",
+        "selectedIconPath": "static/tab/inspect-active.png"
+      },
+      {
+        "pagePath": "pages/task/index",
+        "text": "整改",
+        "iconPath": "static/tab/task.png",
+        "selectedIconPath": "static/tab/task-active.png"
+      },
+      {
+        "pagePath": "pages/history/index",
+        "text": "记录",
+        "iconPath": "static/tab/history.png",
+        "selectedIconPath": "static/tab/history-active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "static/tab/mine.png",
+        "selectedIconPath": "static/tab/mine-active.png"
+      }
+    ]
+  }
+}
